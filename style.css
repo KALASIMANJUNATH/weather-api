@@ -46,10 +46,12 @@ body{
     padding: 10px;
 }
 .top-buttons{
-    padding: 0px 420px;
+    margin: 30px 0px;
+    display: flex;
+    justify-content:center;
 }
 #country{
-    margin:30px;
+    
     padding: 10px;
     font-size: large;
     border-radius: 10px;
@@ -61,9 +63,10 @@ body{
 
 }
 #input{
-    margin:30px auto;
     width: 600px;
     padding: 10px;
+    margin-left: 20px;
+    height: 40px;
     font-size: large;
     border-radius: 10px;
     border: none;
@@ -73,7 +76,7 @@ body{
 
 }
 #button{
-    width: 90px;
+    width: 130px;
     margin-left: 20px;
     padding: 10px;
     font-size: larger;
@@ -193,7 +196,7 @@ body{
     .top-buttons {
         padding: 0;
         display: flex;
-       flex-wrap: wrap  ;
+        flex-wrap: wrap  ;
         align-items: center;
     }
 
